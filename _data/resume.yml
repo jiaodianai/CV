@@ -4,7 +4,6 @@
 title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "焦点"
-jobtitle: "求职意向" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
@@ -15,6 +14,7 @@ contact: #联系方式连接等3~5行
 - text: "19826052019"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
+- text: "生日：2001-10-24"
   # - text: "地址"
   #   icon: "icons/location.svg"
 
@@ -25,8 +25,7 @@ main: #简历主要内容，
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 北京大学
     duration: "2019年9月 - "
-    sub: 北京
-    detail: 软件工程
+    detail: 软件工程（本科）
 
 - type: skills
   # name: "技能"
@@ -35,14 +34,15 @@ main: #简历主要内容，
     items: #itmems 可以小块的方式显示
     - C/C++
     - python
+    - css/html
     - javascript
 
 - type: projects
   name: Projects
   content:
   - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
+    detail: MytoDo:软件工程课程合作project，一个简约的事项备忘录，主要参与前端工作（js+css+html）
+    
     sub: 维护者
   - title: Project Name
     summary: Projects' introduction or summary
