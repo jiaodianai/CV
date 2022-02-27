@@ -24,7 +24,7 @@ main: #简历主要内容，
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 北京大学
-    duration: "2019年9月 - "
+    duration: "2019/9 - "
     detail: 软件工程（本科）
 
 - type: skills
@@ -40,16 +40,12 @@ main: #简历主要内容，
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
-    detail: MytoDo:软件工程课程合作project，一个简约的事项备忘录，主要参与前端工作（js+css+html）
-    
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+  - title: MytoDo
+    detail: 软件工程课程合作project，一个简约的事项备忘录，主要参与前端工作（js+css+html）
+  - title: Malloc Lab
+    detail: 计算机系统导论课程Lab，编写一个动态内存申请器（C）
+  - title: XV6 Lab
+    detail: 操作系统课程Lab，完善一个小型操作系统，包括实现thread/lazy allocation/mmap等功能（C）
 
 #others 其他简略内容(列表)
 others: #其他列表显示
